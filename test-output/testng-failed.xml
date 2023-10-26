@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.tests.GetAPIRequestWithoutBDD">
+      <class name="com.rest.tests.GetAPIRequestWITHBDD">
         <methods>
-          <include name="getApiTest"/>
+          <include name="getProductsTest"/>
         </methods>
-      </class> <!-- com.rest.tests.GetAPIRequestWithoutBDD -->
+      </class> <!-- com.rest.tests.GetAPIRequestWITHBDD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
