@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.tests.GetAPIWithPathParam">
+      <class name="com.rest.post.BookingAuthWithPojoTest">
         <methods>
-          <include name="getAPIwithPathParamWith_DataProviderTest" invocation-numbers="0 2"/>
+          <include name="getBookingAuthTest_WithJSONString"/>
         </methods>
-      </class> <!-- com.rest.tests.GetAPIWithPathParam -->
+      </class> <!-- com.rest.post.BookingAuthWithPojoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
