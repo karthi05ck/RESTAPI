@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.post.BookingAuthWithPojoTest">
+      <class name="com.product.api.ProductAPIJSONJaywayTest">
         <methods>
-          <include name="getBookingAuthTest_WithJSONString"/>
+          <include name="getProduct_BDD_Json_Jayway_Test"/>
         </methods>
-      </class> <!-- com.rest.post.BookingAuthWithPojoTest -->
+      </class> <!-- com.product.api.ProductAPIJSONJaywayTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

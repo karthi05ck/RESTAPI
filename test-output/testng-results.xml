@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-29T20:02:42 IST" name="Default suite" finished-at="2023-10-29T20:02:45 IST" duration-ms="2707">
+  <suite started-at="2023-10-30T16:11:45 IST" name="Default suite" finished-at="2023-10-30T16:11:47 IST" duration-ms="2462">
     <groups>
     </groups>
-    <test started-at="2023-10-29T20:02:42 IST" name="Default test" finished-at="2023-10-29T20:02:45 IST" duration-ms="2707">
-      <class name="com.rest.post.CreateUserwithPojoTest">
-        <test-method signature="addUserTest()[pri:0, instance:com.rest.post.CreateUserwithPojoTest@63a12c68]" started-at="2023-10-29T20:02:42 IST" name="addUserTest" finished-at="2023-10-29T20:02:45 IST" duration-ms="2677" status="PASS">
+    <test started-at="2023-10-30T16:11:45 IST" name="Default test" finished-at="2023-10-30T16:11:47 IST" duration-ms="2462">
+      <class name="com.product.api.ProductAPIJSONJaywayTest">
+        <test-method signature="getProduct_BDD_Json_Jayway_Test()[pri:0, instance:com.product.api.ProductAPIJSONJaywayTest@3427b02d]" started-at="2023-10-30T16:11:45 IST" name="getProduct_BDD_Json_Jayway_Test" finished-at="2023-10-30T16:11:47 IST" duration-ms="2416" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addUserTest -->
-      </class> <!-- com.rest.post.CreateUserwithPojoTest -->
+        </test-method> <!-- getProduct_BDD_Json_Jayway_Test -->
+      </class> <!-- com.product.api.ProductAPIJSONJaywayTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
