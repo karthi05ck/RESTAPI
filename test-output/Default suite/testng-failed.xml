@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.product.api.ProductAPIJSONJaywayTest">
+      <class name="com.pet.api.CreatePetTest">
         <methods>
-          <include name="getProduct_BDD_Json_Jayway_Test"/>
+          <include name="postPetTest"/>
         </methods>
-      </class> <!-- com.product.api.ProductAPIJSONJaywayTest -->
+      </class> <!-- com.pet.api.CreatePetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

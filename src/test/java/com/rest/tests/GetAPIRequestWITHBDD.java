@@ -186,8 +186,8 @@ public class GetAPIRequestWITHBDD {
 					.then()
 					.extract().response();
 					
-				System.out.println(response.path("id"));
-				System.out.println(response.path("email"));
+				//System.out.println(response.path("id"));
+				//System.out.println(response.path("email"));
 			
 		
 	}

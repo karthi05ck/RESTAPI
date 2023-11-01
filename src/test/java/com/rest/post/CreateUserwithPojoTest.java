@@ -19,7 +19,8 @@ public class CreateUserwithPojoTest {
 	
 	public void addUserTest() {
 		//1. post and get userid
-		User user = new User("dhivs",getRandomEmailId(),"female","active");
+		User user = new User("dhivs55",getRandomEmailId(),"female","active");
+		RestAssured.useRelaxedHTTPSValidation();
 		int userId = RestAssured.given().log().all()
 		.baseUri("https://gorest.co.in")
 		.header("Authorization", "Bearer 655c32f2251ad16064b6d628745dc727fd22ebfeac5a8aff0197895f47581f79")
