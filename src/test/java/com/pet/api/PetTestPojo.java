@@ -27,9 +27,9 @@ public class PetTestPojo {
 	private List<Tags> tags;
 	private String status;
 
-	public PetTestPojo() {
-
-	}
+//	public PetTestPojo() {
+//
+//	}
 
 	public Integer getId() {
 		return id;
@@ -80,20 +80,20 @@ public class PetTestPojo {
 		this.tags = tags;
 	}
 
-	public PetTestPojo(Integer id, Category category, String name, List<String> photoUrls, List<Tags> tags,
-			String status) {
-
-		this.id = id;
-		this.category = category;
-		this.name = name;
-		this.photoUrls = photoUrls;
-		this.tags = tags;
-		this.status = status;
-	}
+//	public PetTestPojo(Integer id, Category category, String name, List<String> photoUrls, List<Tags> tags,
+//			String status) {
+//
+//		this.id = id;
+//		this.category = category;
+//		this.name = name;
+//		this.photoUrls = photoUrls;
+//		this.tags = tags;
+//		this.status = status;
+//	}
 
 	@Data
-	@AllArgsConstructor(access = AccessLevel.PACKAGE)
-	@NoArgsConstructor(access = AccessLevel.PACKAGE)
+	//@AllArgsConstructor(access = AccessLevel.PACKAGE)
+	//@NoArgsConstructor(access = AccessLevel.PACKAGE)
 	@Builder
 	@JsonIgnoreProperties(ignoreUnknown = true)
 	@JsonSerialize
@@ -131,8 +131,8 @@ public class PetTestPojo {
 	}
 
 	@Data
-	@AllArgsConstructor
-	@NoArgsConstructor
+	//@AllArgsConstructor
+	//@NoArgsConstructor
 	@Builder
 	@JsonIgnoreProperties(ignoreUnknown = true)
 	@JsonSerialize

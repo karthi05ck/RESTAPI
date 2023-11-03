@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-01T16:39:44 IST" name="Default suite" finished-at="2023-11-01T16:39:48 IST" duration-ms="3287">
+  <suite started-at="2023-11-03T17:22:09 IST" name="Default suite" finished-at="2023-11-03T17:22:12 IST" duration-ms="2847">
     <groups>
     </groups>
-    <test started-at="2023-11-01T16:39:44 IST" name="Default test" finished-at="2023-11-01T16:39:48 IST" duration-ms="3287">
-      <class name="com.pet.api.CreatePetTest">
-        <test-method signature="postPetTest()[pri:0, instance:com.pet.api.CreatePetTest@2f7298b]" started-at="2023-11-01T16:39:44 IST" name="postPetTest" finished-at="2023-11-01T16:39:48 IST" duration-ms="3242" status="PASS">
+    <test started-at="2023-11-03T17:22:09 IST" name="Default test" finished-at="2023-11-03T17:22:12 IST" duration-ms="2847">
+      <class name="xml.GetCircuitXMLAPITest">
+        <test-method signature="xmlTest()[pri:0, instance:xml.GetCircuitXMLAPITest@6e171cd7]" started-at="2023-11-03T17:22:09 IST" name="xmlTest" finished-at="2023-11-03T17:22:12 IST" duration-ms="2807" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postPetTest -->
-      </class> <!-- com.pet.api.CreatePetTest -->
+        </test-method> <!-- xmlTest -->
+      </class> <!-- xml.GetCircuitXMLAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

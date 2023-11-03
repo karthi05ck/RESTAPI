@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 
 public class UserPojo {
