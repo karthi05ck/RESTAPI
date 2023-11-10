@@ -46,13 +46,26 @@
 			<artifactId>jackson-module-paranamer</artifactId>
 			<version>2.2.3</version>
 		</dependency>
-		
+
 		<dependency>
-    <groupId>io.rest-assured</groupId>
-    <artifactId>json-schema-validator</artifactId>
-    <version>5.3.2</version>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>5.3.2</version>
+		</dependency>
+
+		<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-rest-assured</artifactId>
+    <version>2.23.0</version>
 </dependency>
-		
+
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.22.1</version>
+		</dependency>
+
+
 
 	</dependencies>
 </project>

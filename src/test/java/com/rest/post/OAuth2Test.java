@@ -14,7 +14,7 @@ static String accessToken;
 	public void getAccessToken() {
 		//1.With post - get the access token
 		RestAssured.baseURI="https://test.api.amadeus.com";
-		
+	RestAssured.useRelaxedHTTPSValidation();
 		 accessToken = RestAssured.given()
 		.header("Content-Type","application/x-www-form-urlencoded")
 		.formParam("grant_type", "client_credentials")
@@ -33,6 +33,7 @@ static String accessToken;
 	}
 	@Test
 	public void getFlightInfoTest() {
+		RestAssured.useRelaxedHTTPSValidation();
 		Response response = RestAssured.given().log().all()
 		.header("Authorization", "Bearer "+accessToken)
 		.queryParam("origin", "PAR")
